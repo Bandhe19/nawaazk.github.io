@@ -1,2 +1,2 @@
-# username.github.io
+# Nawaazk.github.io
 Nawaaz K Profile

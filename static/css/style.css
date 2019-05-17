@@ -99,7 +99,7 @@ h3 {
 	position: relative;
 }
 .full-height {
-	height: 161px;
+	height: 100vh;
 }
 #intro.section {
 	background: url(../../static/img/keep-learning.jpg) no-repeat top center/cover;

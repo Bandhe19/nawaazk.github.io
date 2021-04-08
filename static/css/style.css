@@ -3,7 +3,7 @@ body {
 	font-size: 16px;
 }
 a {
-	color: #009688;
+	color: #2196f3;
 }
 blockquote {
 	border-left: 5px solid #795548;
@@ -31,11 +31,11 @@ nav i {
 	top: 5px;
 }
 main {
-	background: url(../img/bg.png) repeat;
-	padding-left: 190px;
+	background: white;
+	padding-left: 251px;
 }
 ul.side-nav {
-	width: 190px;
+	width: 250px;
 }
 ul.side-nav li {
 	padding: 0;
@@ -87,11 +87,12 @@ li.logo span {
 	width: 95%
 }
 h3 {
-	font-weight: 200;
-	margin-bottom: 60px;
-	margin-top: 0;
-	padding: 30px 40px;
-	text-transform: uppercase;
+    font-weight: 400;
+    margin-bottom: 20px;
+    margin-top: 0;
+    padding: 10px 37px;
+    text-transform: uppercase;
+	font-size: 2.10rem;
 }
 .section {
 	padding-bottom: 30px;
@@ -102,15 +103,16 @@ h3 {
 	height: 100vh;
 }
 #intro.section {
-	background: url(../../static/img/keep-learning.jpg) no-repeat top center/cover;
+	background: url(../../static/img/slider.jpg) no-repeat top center/cover;
 	position: relative;
+	background-size: 100% 100%;
 }
 #intro.section .container {
 	color: white;
 	font-weight: 200;
 	left: 0;
 	position: absolute;
-	top: 0;
+	top: 68px;
 }
 #intro.section .container *:not(span) {
 	font-weight: 300;
@@ -160,7 +162,9 @@ h3 {
 	padding-bottom: 30px;
 }
 .card .card-content p {
-	padding: 2px 0 0;
+    padding: 20px 1px 1px 1px;
+    font-size: 1.28rem;
+    text-align: left;
 }
 .card h5 {
   font-size: 1.5rem;
@@ -216,7 +220,7 @@ a.hoverline {
 	-webkit-transition: .25s all;
 }
 a.hoverline:hover {
-	border-bottom: 3px solid #009688 !important;
+	border-bottom: 3px solid blue !important;
 }
 #skills .card.large {
 	height: 360px;
@@ -274,10 +278,10 @@ small { display: none;}
 	color: #666 !important;
 }
 .teal-text {
-	color: #008073 !important
+	color: #000 !important
 }
 .teal {
-	background-color: #008073 !important
+	background-color: #2196f3 !important;
 }
 @media (min-width: 1200px) {
 	#experience .container {
@@ -412,9 +416,29 @@ small { display: none;}
 }
 .card .card-content p {
 	padding: 20px 1px 1px 1px;
-	font-size: 20px;
+	font-size: 1.28rem;
 }
 .card .card-content .card-title {
 	line-height: 2.5rem;
 	text-transform: capitalize;
+	/* border-bottom: 1px solid black; */
+}
+
+.brown {
+    background-color: #3f51b5 !important;
+}
+
+.flow-text {
+    font-size: 1.28rem;
+    letter-spacing: 1px;
+}
+.card .card-content {
+    padding-bottom: 30px;
+    font-size: 1.28rem;
+    line-height: 2;
+	letter-spacing: 1px;
+}
+
+.card .card-content .projects {
+    border-top: 1px solid #ddd;
 }
